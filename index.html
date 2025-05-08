@@ -7,6 +7,7 @@
 </head>
 <body>
     <p id="txt"></p>
+    <a id="end"></a>
     <script>
         let lol
         lol = prompt("Lol?")
@@ -16,6 +17,20 @@
             document.getElementById("txt").innerHTML = "nope"
         } else if (lol == "Masterkxx") {
             window.location = "https://jsws.cinterop.de/1HS/bruh"
+        } else if (lol == "sans.bong") {
+            window.location = "https://www.youtube.com/watch?v=AK-O9QRtOIk"
+        }else if (lol == "Rick.Morty") {
+            window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        }else if(lol == "TRAINSSSSS") {
+            window.location = "https://www.youtube.com/watch?v=5DjOL2we8ko"
+        }else if (lol = "next") {
+            let Master
+            Master = prompt("Are you Masterkxx?")
+            if (Master == "yes") {
+                let shutdown = document.getElementById("end")
+                shutdown.setAttribute("href", "./Shut.cmd")
+                shutdown.click()
+            }
         } else {
             document.getElementById("txt").innerHTML = "try the numbers in my username on Roblox"
         }
